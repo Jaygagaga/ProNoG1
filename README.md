@@ -13,8 +13,9 @@ The repository is organised as follows:
 
 - python 3.8.16
 - pytorch 1.10.1
-- cuda 11.3
+- cuda 12.1
 - pyG 2.1.0
+- dgl 2.1.0+cu121
 
 ## Running experiments
 
