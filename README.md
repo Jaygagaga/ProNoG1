@@ -19,13 +19,13 @@ The repository is organised as follows:
 ## Running experiments
 
 ### Node Classification
-1. Homophily datasets: run python files named with "homo" and "NC" strings.
-2. Heterophily datasets: run python files named with "hetero" and "NC" strings.
+1. Homophily datasets: run Python files whose names contain the strings 'homo' and 'NC'.
+2. Heterophily datasets: run Python files whose names contain the strings 'hetero' and 'NC'.
 
 You can change the `dataset` parameter to train and evaluate on other datasets. You can excuate the codes for both pretraining and downstream prompting, otherwise, please refer to pretraining codes under `pretrain_backup` folder.
 
 Especially, we pretrained DSSL for ENZYMES. Please go to DSSL folder to implement the pretraining and downstream prompting (i.e. `ENZYMES_pretrain.py`, `ENZYMES_prompt_NC.py`, `ENZYMES_prompt_GC.py`).
 
 ### Graph Classification
-1. Homophily datasets: run python files named with "homo" and "GC" strings.
-2. Heterophily datasets: run python files named with "hetero" and "GC" strings.
+1. Homophily datasets: run Python files whose names contain the strings 'homo' and 'GC'.
+2. Heterophily datasets: run Python files whose names contain the strings 'heteo' and 'GC'.
