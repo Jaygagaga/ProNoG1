@@ -4,7 +4,7 @@
 The repository is organised as follows:
 
 - **data**: data folder contains data we use in all experiments.
-- **GP/graphcl/DSSL/models**: this four folders contain four model architecture for respective pretraining tasks specified in the paper. 
+- **GP/graphcl/DSSL/models**: this four folders contain four model architectures for respective pretraining tasks specified in the paper. 
 - **downprompt**: `downprompt_metanet.py` contains the codes for our condition-net implementations.
 - **preprompt**: `preprompt_new1.py` is the main code for pretraining.
   
